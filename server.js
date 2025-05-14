@@ -25,7 +25,7 @@ app.use('/api/todos', todoRoutes);
 app.get('/', (req, res) => {
   res.json({ message: 'Welcome to the Todo API' });
 });
-
+//Adding this for mongo command
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
